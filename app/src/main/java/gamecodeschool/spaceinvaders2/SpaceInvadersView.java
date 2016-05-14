@@ -228,11 +228,7 @@ public class SpaceInvadersView extends SurfaceView implements Runnable{
                     uhOrOh = !uhOrOh;
                 }
             }
-
         }
-
-
-
     }
 
     private void update(){
@@ -415,8 +411,6 @@ public class SpaceInvadersView extends SurfaceView implements Runnable{
                 }
             }
         }
-
-
     }
 
 
@@ -469,8 +463,6 @@ public class SpaceInvadersView extends SurfaceView implements Runnable{
                     canvas.drawRect(invadersBullets[i].getRect(), paint);
                 }
             }
-
-
             // Draw the score and remaining lives
             // Change the brush color
             paint.setColor(Color.argb(255,  249, 129, 0));
